@@ -1,0 +1,252 @@
+/* FlexBox Styles */
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row-rev {
+  flex-direction: row-reverse;
+}
+.flex-col-rev {
+  flex-direction: column-reverse;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-stretch{
+  align-self: stretch;
+}
+.justify-stretch{
+  justify-self: stretch;
+}
+
+
+/* Text Align Styles */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-decor-none {
+  text-decoration: none;
+}
+
+
+/* Display Styles */
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.block-inline {
+  display: inline-block;
+}
+
+
+/* Margin & Padding Styles */
+.p-0{
+  padding: 3px;
+}
+.p-2 {
+  padding: 7px;
+}
+.ml-0 {
+  margin-left: 3px;
+}
+.ml-1 {
+  margin-left: 1vw;
+}
+.ml-2 {
+  margin-left: 2vw;
+}
+.mr-0 {
+  margin-right: 5px;
+}
+.mr-1 {
+  margin-right: 1vw;
+}
+.mr-2 {
+  margin-right: 2vw;
+}
+.mt-1 {
+  margin-top: 1vh;
+}
+.mt-2 {
+  margin-top: 2vh;
+}
+.mt-3 {
+  margin-top: 3vh;
+}
+.mb-1 {
+  margin-bottom: 1vh;
+}
+.mtb-1 {
+  margin: 1vh 0;
+}
+.mtb-2 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+
+/* Border Styles */
+.bb {
+  border: 2px solid black;
+}
+.bw {
+  border: 2px solid white;
+}
+
+
+/* Font Styles */
+.fs-small{
+  font-size: 16px;
+}
+.fs-big {
+  font-size: 1.5rem;
+}
+.fs-med {
+  font-size: 1.2rem;
+}
+
+
+/* Font Weight Styles */
+.fw-bold {
+  font-weight: bold;
+}
+.fw-normal {
+  font-weight: normal;
+}
+
+
+/* Text Transform Styles */
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+/* Opacity Styles */
+.opl {
+  opacity: 0.7;
+}
+.op6{
+  opacity: 0.6;
+}
+.op1{
+  opacity: 1;
+}
+.cp{
+  cursor: pointer;
+}
+
+/* Button Styles */
+.large-btn{
+  width: 100%;
+  border: 1px solid black;
+  padding: 8px 7px;
+  margin: 0.5vh 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.large-btn:hover{
+  background-color: rgb(234, 234, 234);
+}
+.small-btn{
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  padding: 3px 2px;
+  margin: 0.5vh 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.small-btn-prim-blue{
+  width: 100px;
+  height: 30px;
+  background-color: #3b71ca;
+  border: 1px solid #3b71ca;
+  color: white;
+  padding: 3px 2px;
+  margin: 0.5vh 5px 0.5vh 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.small-btn-blue{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #3b71ca;
+  color: #3b71ca;
+  padding: 3px 2px;
+  margin: 0.5vh 5px 0.5vh 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.small-btn-red{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #dc4c64;
+  color: #dc4c64;
+  padding: 3px 2px;
+  margin: 0.5vh 5px 0.5vh 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.user-dashboard{
+  margin-top: 10vh;
+}

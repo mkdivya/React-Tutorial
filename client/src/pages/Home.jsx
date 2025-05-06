@@ -1,8 +1,17 @@
 import React from 'react';
+import About from '../pages/About'
+
+import HeroSection from '../components/UI/HeroSection';
 
 const Home = () => {
-        return(
-                <h1>Home</h1>
-        )
+       
+return(<>
+ <HeroSection />
+ <About />
+</>
+       
+)
+                       
+              
 }
 export default Home;

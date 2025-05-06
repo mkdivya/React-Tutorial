@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  
 }
 
 /* Grid Utility */
@@ -62,4 +63,147 @@ nav ul li a {
 .ham-menu{
   display:none;
 }
+.grid-two-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-three-cols{
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-four-cols{
+  grid-template-columns: repeat(4, 1fr);
+}
 
+/* Hero-section */
+.hero-section {
+
+  .container{
+    padding: 3.2rem;
+    margin: 5rem auto;
+    gap:6.2rem;
+    
+  }
+
+}
+.paragrpah{
+  margin: 3.2rem 0;
+}
+.heading-xl{
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.15;
+}
+.hero-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .hero-image img{
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 990px) {
+  
+  .hero-content{
+    order:1
+  }
+  .container .hero-image {
+order:0;
+width: 80%;
+  }
+  
+}
+.btn{
+  border-radius: 50px;
+}
+img{
+  border-radius: 50px;
+}
+
+/* About */
+.section-about {
+  padding: 4rem 1rem;
+  background: #f4f6f9;
+  text-align: center;
+}
+
+.container-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1d3557;
+}
+
+.gradient-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: linear-gradient(135deg, #48cae4, #00b4d8);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.container-card {
+  padding: 2rem;
+  color: white;
+  text-align: left;
+}
+
+.container-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.card-description {
+  font-weight: bold;
+  color: #fcd5ce;
+}
+.section-container {
+  padding: 4rem 1rem;
+  background-color: #f1f5f9;
+}
+.container-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e293b;
+}
+
+.contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #3b82f6;
+}

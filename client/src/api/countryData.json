@@ -1,0 +1,60 @@
+[
+        {
+          "id": 1,
+          "countryName": "Japan",
+          "capital": "Tokyo",
+          "population": 125800000,
+          "interestingFacts": "Japan is made up of over 6,800 islands and is known for its bullet trains and cherry blossoms."
+        },
+        {
+          "id": 2,
+          "countryName": "Brazil",
+          "capital": "Brasília",
+          "population": 213000000,
+          "interestingFacts": "Brazil is home to the Amazon Rainforest and the famous Christ the Redeemer statue in Rio de Janeiro."
+        },
+        {
+          "id": 3,
+          "countryName": "Canada",
+          "capital": "Ottawa",
+          "population": 38900000,
+          "interestingFacts": "Canada has more lakes than the rest of the world combined."
+        },
+        {
+          "id": 4,
+          "countryName": "India",
+          "capital": "New Delhi",
+          "population": 1417000000,
+          "interestingFacts": "India is the world's largest democracy and the birthplace of yoga and chess."
+        },
+        {
+          "id": 5,
+          "countryName": "Australia",
+          "capital": "Canberra",
+          "population": 26000000,
+          "interestingFacts": "Australia is the only continent covered by a single country and is home to the Great Barrier Reef."
+        },
+        {
+          "id": 6,
+          "countryName": "Egypt",
+          "capital": "Cairo",
+          "population": 110000000,
+          "interestingFacts": "Egypt is home to one of the world’s oldest civilizations and the iconic pyramids of Giza."
+        },
+        {
+          "id": 7,
+          "countryName": "Germany",
+          "capital": "Berlin",
+          "population": 83000000,
+          "interestingFacts": "Germany is known for its engineering, Oktoberfest, and being a leader in the European Union."
+        },
+        {
+          "id": 8,
+          "countryName": "South Korea",
+          "capital": "Seoul",
+          "population": 51700000,
+          "interestingFacts": "South Korea is famous for K-pop, high-speed internet, and technological innovations."
+        }
+        
+      ]
+      
